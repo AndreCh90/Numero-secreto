@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@200&display=swap');
+
+:root {
+    --font-family: font-family: 'Sofia Sans', sans-serif;
+    --cor-primaria: #3C6255;
+    --color: #ECE8DD;
+}
+
+body {
+    background-color: var(--color);
+    color: var(--cor-primaria);
+    min-height: 100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    font-family: var(--font-family);
+}
+
+h1 {
+    font-size: 4em;
+}
+
+h2 { 
+    font-size: 4em;
+}
+
+h3 {
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+.mensagem {
+    font-size: 1.5em;
+    margin-top:20px;
+}
+
+.box {
+    border: 2px solid var(--cor-primaria); /*borda*/
+    display: inline-block; /*tela*/
+    font-size: 4em; /*tamanho da fonte*/
+    padding: 10px; /*preenchimento*/
+    margin: 20px;/*margem*/
+}
+
+.btn-jogar-novamente {
+    padding: 8px 15px;
+    border: 0;
+    background: var(--cor-primaria);
+    border-radius: 5px;
+    margin-top: 20px;
+}
